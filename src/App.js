@@ -33,7 +33,7 @@ function App() {
         <div className="App">
           <BrowserRouter>
             <Routes>
-              <Route exacts path="/home" element={(
+              <Route exacts path="/" element={(
                   <LayoutWrapScreen>
                   <Home />
                   </LayoutWrapScreen>

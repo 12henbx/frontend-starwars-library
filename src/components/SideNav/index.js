@@ -29,7 +29,7 @@ function SideNav() {
                 <p class="text-lg font-normal">Library</p>
             </div>
             <div class="px-12">
-                <RouterLink to="/home">
+                <RouterLink to="/">
                     <div class="py-2">
                     {location.pathname.split('/')[1] === 'home' ? (
                         <div class="flex flex-row align-center rounded-lg bg-blue-800 h-10">
